@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD5C87CE2B80C92E001657BE /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C87CD2B80C92E001657BE /* ItemRow.swift */; };
+		CD5C87D02B80DA3B001657BE /* RestrictionBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C87CF2B80DA3B001657BE /* RestrictionBadge.swift */; };
 		CDAFEE2C2B7E5949006E8C0E /* idineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFEE2B2B7E5949006E8C0E /* idineApp.swift */; };
 		CDAFEE2E2B7E5949006E8C0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFEE2D2B7E5949006E8C0E /* ContentView.swift */; };
 		CDAFEE302B7E594A006E8C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAFEE2F2B7E594A006E8C0E /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD5C87CD2B80C92E001657BE /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		CD5C87CF2B80DA3B001657BE /* RestrictionBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictionBadge.swift; sourceTree = "<group>"; };
 		CDAFEE282B7E5949006E8C0E /* idine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAFEE2B2B7E5949006E8C0E /* idineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idineApp.swift; sourceTree = "<group>"; };
 		CDAFEE2D2B7E5949006E8C0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 			children = (
 				CDAFEE2B2B7E5949006E8C0E /* idineApp.swift */,
 				CDAFEE2D2B7E5949006E8C0E /* ContentView.swift */,
+				CD5C87CD2B80C92E001657BE /* ItemRow.swift */,
+				CD5C87CF2B80DA3B001657BE /* RestrictionBadge.swift */,
 				CDAFEE2F2B7E594A006E8C0E /* Assets.xcassets */,
 				CDAFEE3A2B7E5989006E8C0E /* Helper.swift */,
 				CDAFEE3C2B7E5989006E8C0E /* menu.json */,
@@ -153,8 +159,10 @@
 				CDAFEE3D2B7E5989006E8C0E /* Menu.swift in Sources */,
 				CDAFEE2E2B7E5949006E8C0E /* ContentView.swift in Sources */,
 				CDAFEE3F2B7E5989006E8C0E /* Order.swift in Sources */,
+				CD5C87CE2B80C92E001657BE /* ItemRow.swift in Sources */,
 				CDAFEE2C2B7E5949006E8C0E /* idineApp.swift in Sources */,
 				CDAFEE3E2B7E5989006E8C0E /* Helper.swift in Sources */,
+				CD5C87D02B80DA3B001657BE /* RestrictionBadge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
