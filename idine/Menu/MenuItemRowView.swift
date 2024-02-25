@@ -10,10 +10,9 @@ import SwiftUI
 struct ItemRow: View {
     var item: MenuItem
     let colors: [String: Color] = ["V": .green, "D": .purple, "N": .red, "G": .black, "S": .blue]
+
     var body: some View {
-        NavigationLink {
-            Text(item.name)
-        } label: {
+        NavigationLink(value: item) {
             HStack {
                 Image(item.thumbnailImage)
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
@@ -30,6 +29,9 @@ struct ItemRow: View {
                     RestrictionBadge(restriction: restriction, bgColor: color)
                 }
             }
+        }
+        .navigationDestination(for: MenuItem.self) { item in
+            ItemDetailsView(item: item)
         }
     }
 }
